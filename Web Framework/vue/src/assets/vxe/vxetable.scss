@@ -1,0 +1,27 @@
+.vxe-table-theme-nested {
+    @import 'vxe-table/styles/variable.scss';
+
+    $vxe-font-color: #606266;
+    $vxe-font-size: 14px;
+    // $vxe-font-size-medium: 14px;
+    $vxe-font-size-small: 15px;
+    // $vxe-font-size-mini: 12px;
+
+    // $vxe-table-row-height-default: 20px;
+    // $vxe-table-row-height-medium: 20px;
+    $vxe-table-row-height-small: 22px;
+    // $vxe-table-row-height-mini: 20px;
+    $vxe-table-row-line-height: 22px;   
+
+    $vxe-table-cell-padding-left: 0px;
+    $vxe-table-cell-padding-right: 0px;
+
+    // 表格修改激活无边框
+    $vxe-border-radius: 0px;
+    $vxe-table-cell-active-area-border-width: 0px;
+    // $vxe-input-height-default: $vxe-button-height-default;
+    // $vxe-input-height-medium: $vxe-button-height-medium;
+    $vxe-input-height-small: 21px;
+    // $vxe-input-height-mini: $vxe-button-height-mini;
+    @import 'vxe-table/styles/modules.scss';
+  }

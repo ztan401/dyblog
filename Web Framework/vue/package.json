@@ -1,0 +1,52 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.20.2",
+    "element-ui": "^2.15.6",
+    "express": "^4.17.2",
+    "katex": "^0.12.0",
+    "vue": "^2.6.14",
+    "vue-plotly": "^1.1.0",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-plugin-vuex": "^4.5.9",
+    "@vue/cli-service": "~4.4.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "apexcharts": "^3.33.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "echarts": "^4.9.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.13.1",
+    "less-loader": "^6.2.0",
+    "sass": "^1.47.0",
+    "sass-loader": "^10.2.0",
+    "v-charts": "^1.19.0",
+    "vue-apexcharts": "^1.6.2",
+    "vue-axios": "^2.1.5",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-table-dynamic": "^0.3.3",
+    "vue-template-compiler": "^2.6.14",
+    "vxe-table": "^2.11.0",
+    "x-data-spreadsheet": "^1.1.9",
+    "xe-utils": "^2.8.3"
+  }
+}

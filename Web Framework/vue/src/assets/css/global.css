@@ -1,0 +1,35 @@
+/* 全局样式表 */
+html, body, #app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* 隐藏竖滚动条 */
+    /* overflow-y: hidden;   */
+}
+/*  html {overflow-y: hidden;}   隐藏竖滚动条
+    html {overflow-x: hidden;}   隐藏横滚动条 */
+
+/* 卡片视图 */
+.el-breadcrumb {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+/* 卡片视图阴影 */
+.el-card {
+    height: 100% !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+/* 表格内部数据实现居中 */
+.table-cell-content {
+  text-align: center !important;
+  margin: auto !important;
+}
+
+/* 表头实现居中 */
+.v-table-row{
+  text-align: center !important;
+  margin: auto !important;
+}

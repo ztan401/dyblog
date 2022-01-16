@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "id": 101,
+            "authName": "商品管理",
+            "level": "0",
+            "pid": 0,
+            "path": "null",
+            "children": [
+                {
+                    "id": 201,
+                    "authName": "订单管理",
+                    "level": "0",
+                    "pid": 0,
+                    "path": "null"
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "authName": "订单管理",
+            "level": "0",
+            "pid": 0,
+            "path": "null",
+            "children": [
+                {
+                    "id": 201,
+                    "authName": "订单管理",
+                    "level": "0",
+                    "pid": 0,
+                    "path": "null"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "msg": "获取权限列表成功",
+        "status": 200
+    }
+}
